@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffffc;
+}
+* {
+    box-sizing: border-box;
+}
+.form-contact {
+    display: block;
+    background-color: #252422;
+    box-shadow: 1px 1px 3px 2px;
+    margin: 40px auto;
+    max-width: 600px;
+    max-height: 700px;
+    padding: 20px;
+}
+.formtitle {
+    color: #fffffc;
+}
+
+.inpt-contact,
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fffffc;
+    border: 1px solid #fffffc;
+}
+.btn-contact {
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    border: none;
+    background-color: #eb5e28;
+    color: #fffffc;
+}

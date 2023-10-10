@@ -1,0 +1,11 @@
+.big-article {
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+.other-title {
+    font-size: 1.2rem;
+
+    margin-left: 5rem;
+}

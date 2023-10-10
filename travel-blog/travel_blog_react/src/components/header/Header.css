@@ -1,0 +1,34 @@
+body {
+    overflow-x: hidden;
+}
+.header {
+    overflow-y: hidden;
+    z-index: 999;
+}
+.headerTitles {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Patrick Hand', cursive;
+    color: #252422;
+}
+.headerTitle-1 {
+    position: absolute;
+    top: 18%;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+.headerTitle-2 {
+    position: absolute;
+    top: 25%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+}
+
+.header-photo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
